@@ -30,7 +30,7 @@ Comprobación mediante ip a para verificar que la IP fue asignada correctamente 
 
 ---
 
-## Gestión de Usuarios, Grupos y Permisos
+## 2. Gestión de Usuarios, Grupos y Permisos
 
 Se aplicó el principio de mínimo privilegio creando usuarios dedicados, asignando roles con sudo y estableciendo un grupo colaborativo para el directorio del proyecto web.
 
@@ -149,7 +149,7 @@ Programación automática de la tarea en el demonio Cron (crontab -l) fijada par
 
 ---
 
-### 7. Monitorización y Gestión de Logs
+## 7. Monitorización y Gestión de Logs
 
 Para el diagnóstico de incidencias y análisis de eventos del sistema, se utilizó journalctl para examinar la actividad del servicio web.
 
